@@ -1,0 +1,58 @@
+/* College Chinese-site typography: style-zh.css and common.css. */
+@font-face{font-family:myFirstFont;src:url('assets/Exo2-Regular.ttf') format('truetype');font-weight:400;font-style:normal;font-display:swap}
+:root{--college-font:"Microsoft YaHei","Libre Franklin","Helvetica Neue",helvetica,arial,sans-serif}
+body{font-family:var(--college-font);font-size:16px;font-weight:400;line-height:1.875;color:#333}
+button,input,textarea,select,svg text{font-family:var(--college-font)}
+h1,h2,h3,h4,h5,h6{font-family:var(--college-font);font-weight:700;line-height:1.5;letter-spacing:normal}
+p,a,span,figcaption,summary,button{letter-spacing:normal}
+.hero h1{font-family:var(--college-font);font-weight:700;line-height:1.35;letter-spacing:normal}
+.section-heading h2{font-size:32px;font-weight:700;line-height:1.5;letter-spacing:normal}
+.vision h3,.subheading h3,.partner-body h4,.course-copy h3,.project-copy h3,.duty-panel h3{font-size:24px;font-weight:700;line-height:1.5;letter-spacing:normal}
+.person h3{font-size:26px;font-weight:700;line-height:1.5}
+.contact-section h2{font-size:32px;font-weight:700;line-height:1.5}
+.contact-info h3{font-size:24px;font-weight:700}
+.intro p,.partner-body p,.course-copy>p:not(.eyebrow),.project-copy>p:not(.category),.duty-description{font-family:var(--college-font);font-size:15px;font-weight:400;line-height:30px;color:#666;letter-spacing:normal}
+.intro .lead{font-size:18px;line-height:32px;color:#333}
+.category,.role,.eyebrow,.vision-label{font-family:var(--college-font);font-size:15px;font-weight:400;line-height:30px;letter-spacing:normal}
+.category,.role,.eyebrow{color:#18bfc5}
+.hero .eyebrow,.contact-section .eyebrow{color:#d8f5f5;font-size:15px;letter-spacing:normal}
+.hero-en{font-family:myFirstFont,var(--college-font);font-size:16px;line-height:30px;letter-spacing:normal;font-weight:400}
+.hero-bottom p{font-size:22px;line-height:1.8;letter-spacing:normal}
+.person-title,.person-research,.person-research p,.vision p{font-family:var(--college-font);font-size:15px;line-height:30px;font-weight:400}
+.person-research span{font-size:15px;line-height:30px}
+.subheading p,.course-gallery figcaption,.course-copy .course-quote,details>p,.contact-section p,.cooperation-types,.text-link,.contact-link{font-family:var(--college-font);font-size:15px;line-height:30px;font-weight:400;letter-spacing:normal}
+.project-image>span,.cycle-hint,.duty-bottom{font-family:var(--college-font);font-size:14px;line-height:26px;font-weight:400;letter-spacing:normal}
+summary{font-size:15px;line-height:30px;font-weight:400}
+.zoom-button{font-size:14px;line-height:24px;font-weight:400}
+.section-nav a{font-family:var(--college-font);font-size:16px;line-height:30px;font-weight:700;letter-spacing:normal}
+.header-right nav{font-size:16px;font-weight:700;line-height:1.8}
+.utility{font-size:14px;line-height:24px}
+.breadcrumb{font-size:14px;line-height:24px}
+.photo-credit{font-size:12px;line-height:20px}
+.footer-main strong{font-family:var(--college-font);font-size:18px;font-weight:700;line-height:30px}
+.footer-main p,.footer-links{font-family:var(--college-font);font-size:14px;font-weight:400;line-height:26px}
+.footer-bottom{font-family:var(--college-font);font-size:12px;line-height:24px;font-weight:400}
+.dialog-head h2{font-size:20px;font-weight:700}
+.ring-label{font-family:var(--college-font);font-size:20px;font-weight:700;letter-spacing:normal}
+.ring-center text{font-family:var(--college-font);font-size:23px;font-weight:700;letter-spacing:normal}
+.ring-center .ring-center-sub{font-family:var(--college-font);font-size:16px;font-weight:400;letter-spacing:normal}
+.ring-small,.duty-count,.duty-count span,.number,.contact-info .email,.ring-center .ring-center-en,.vision-mark{font-family:myFirstFont,var(--college-font);letter-spacing:normal}
+.ring-small{font-size:16px;font-weight:400}.duty-count{font-size:48px;line-height:1}.duty-count span{font-size:15px}.ring-center .ring-center-en{font-size:12px;font-weight:400}
+.light{color:#d8f5f5}
+@media(max-width:1100px){.header-right nav{font-size:15px}}
+@media(max-width:760px){
+ .section-heading h2{font-size:28px}.hero h1{font-size:35px}
+ .vision h3,.subheading h3,.partner-body h4,.course-copy h3,.project-copy h3,.duty-panel h3,.contact-info h3{font-size:20px}
+ .person h3{font-size:24px}.contact-section h2{font-size:28px}
+ .section-nav a{font-size:15px;line-height:26px;padding-left:16px;padding-right:16px}
+ .hero .eyebrow,.hero-en{font-size:14px;line-height:26px}.hero-bottom p{font-size:17px;line-height:30px}
+ .breadcrumb{font-size:12px;line-height:22px}.utility{font-size:13px}
+ .intro p,.partner-body p,.course-copy>p:not(.eyebrow),.project-copy>p:not(.category),.duty-description{font-size:15px;line-height:28px}
+ .intro .lead{font-size:18px;line-height:32px}.person-title,.person-research,.person-research p{font-size:14px;line-height:26px}
+ .category,.role,.eyebrow,.vision-label{font-size:15px;line-height:28px}
+ .duty-count{font-size:36px}.photo-credit{font-size:11px}
+}
+
+/* Emphasize section and project category labels. */
+.category{font-weight:700}
+
