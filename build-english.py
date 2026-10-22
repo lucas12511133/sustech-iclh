@@ -74,6 +74,65 @@ T = {
 }
 
 T.update({'前往学院联系页面 ↗':'Visit the school contact page ↗','学院首页 ↗':'School homepage ↗','查看大图 ↗':'View diagram ↗','科研创新平台 ↗':'Research platforms ↗','返回顶部 ↑':'Back to top ↑'})
+# Faithful translations of the supplied poster text.
+T.update({
+  "使命与愿景": "Mission and Vision",
+  "随着粤港澳大湾区国际科技创新中心建设加速，生命科学领域正迎来产学研深度融合的历史性机遇。": "As the Guangdong–Hong Kong–Macao Greater Bay Area accelerates the development of an international science and technology innovation center, life sciences face a historic opportunity for deeper integration of industry, universities and research.",
+  "南方科技大学生命科学学院在张明杰院长领导下，已形成结构生物学、神经科学、合成生物学等前沿学科优势。": "Under the leadership of Dean Mingjie Zhang, the School of Life Sciences at Southern University of Science and Technology has established strengths in frontier disciplines including structural biology, neuroscience and synthetic biology.",
+  "为响应国家“创新驱动发展”战略，对接深圳市“20+8”产业集群规划（生物医药与健康产业集群），打造集技术转化、学术传播与复合型人才培养于一体的枢纽平台，实现打破传统学术与产业壁垒，构建高效协同的“产学研用”一体化创新生态，显著提升南方科技大学生命科学院在生命健康、生物医药等前沿领域的科技创新策源力、产业影响力及复合型人才培养水平。": "In response to the national innovation-driven development strategy and Shenzhen’s “20+8” industrial cluster plan for biomedicine and health, the center builds a hub integrating technology translation, academic exchange and interdisciplinary talent development. It breaks down traditional barriers between academia and industry and creates an efficient, coordinated innovation ecosystem connecting industry, universities, research and application, significantly strengthening the school’s capacity to generate scientific and technological innovation, its industrial influence and its development of interdisciplinary talent in life, health, biomedicine and other frontier fields.",
+  "构建高效协同的": "Building an efficient, coordinated",
+  "“产学研用”一体化创新生态": "innovation ecosystem connecting industry, universities, research and application",
+  "技术转化": "Technology translation",
+  "学术传播": "Academic exchange",
+  "复合型人才培养": "Interdisciplinary talent development",
+  "构建产学研闭环": "Closing the loop between industry, universities and research",
+  "聚焦五大方向": "Five research directions",
+  "聚焦结构生物学、合成生物学、细胞治疗、神经科学、生物医学工程五大方向；设“种子基金”支持具有明确转化潜力的早期研究。": "The five focus areas are structural biology, synthetic biology, cell therapy, neuroscience and biomedical engineering. A seed fund supports early-stage research with clear translational potential.",
+  "需求挖掘与匹配": "Identifying and matching needs",
+  "需求挖掘与匹配：深入企业调研，精准识别技术痛点；梳理学院科研成果，主动向企业推送。联合攻关平台：组织校企联合实验室、横向课题技术评估与孵化。": "Identifying and matching needs: conduct in-depth company research to pinpoint technical challenges, review the school’s research outputs and actively introduce them to companies. Joint research platforms: organize university–industry laboratories, technology assessment and incubation for industry-sponsored projects.",
+  "课程与项目": "Courses and projects",
+  "复合型人才培养基地": "Interdisciplinary Talent Development Base",
+  "课程与项目：开设创新创业课程，与成功企业家面对面交流；实习与实践：建立企业实习基地网络；学生深度参与中心横向课题研发全过程；创业辅导、种子资金、孵化空间，支持师生基于中心成果创业。": "Courses and projects: offer innovation and entrepreneurship courses and face-to-face exchanges with successful entrepreneurs. Internships and practice: establish a network of company internship bases and involve students deeply in the full R&D process of the center’s industry-sponsored projects. Entrepreneurship guidance, seed funding and incubation space support faculty and students in launching ventures based on the center’s research outputs.",
+  "“生命科学 + X”联合攻关": "“Life Sciences + X” joint research",
+  "多领域跨学科科研合作": "Interdisciplinary Research Across Multiple Fields",
+  "打破学院内学科壁垒，组建“生命科学 + X”联合攻关团队。以种子项目 / 联合课题形式，支持交叉方向的探索性研究。实现多领域跨学科的科研合作。": "Break down disciplinary barriers within the school and form “Life Sciences + X” joint research teams. Support exploratory interdisciplinary research through seed projects and joint projects, enabling research collaboration across multiple fields.",
+  "成果转化": "Research Translation",
+  "战略资金引进": "Strategic Funding",
+  "已为学院引进战略资金合作": "Strategic funding partnerships have been secured for the school",
+  "儿童全生命周期健康服务": "Health services throughout childhood",
+  "深耕儿童垂直大健康领域，聚焦0-18岁儿童全生命周期健康服务，是西南地区极具特色的儿童大健康医疗服务机构。": "Specializing in children’s health, the company focuses on full-lifecycle health services for children aged 0–18 and is a distinctive pediatric healthcare provider in Southwest China.",
+  "医工交叉深度合作": "In-depth medical–engineering collaboration",
+  "专注低空安防领域的研发、生产、销售工作。未来，企业将与大健康创新中心开展医工交叉深度合作，发挥无人机低空监测等技术优势，赋能各大健康应用场景。": "The company specializes in R&D, production and sales in low-altitude security. It will undertake in-depth medical–engineering collaboration with the health innovation center, drawing on drone-based low-altitude monitoring and other technical strengths to enable a range of health applications.",
+  "创新创业课程": "Innovation and Entrepreneurship Courses",
+  "真正的收获，不是聆听一段光鲜的成功故事，而是穿透故事表象，看见事件背后的权衡取舍。": "The real benefit comes not from hearing a glamorous success story, but from looking beyond the narrative to understand the trade-offs behind events.",
+  "从行业判断落地到个人成长，依托真实案例，理解资源、约束、风险与选择。": "Translate industry judgment into personal growth, using real cases to understand resources, constraints, risks and choices.",
+  "国际视野": "International Perspectives",
+  "学会用更系统的方式理解行业、技术、人，以及每一次决策。": "Learn to understand industry, technology, people and every decision more systematically.",
+  "这套分析思维可以迁移复用，面对复杂问题，独立判断，支撑长期成长。": "This analytical way of thinking can be transferred and reused to make independent judgments on complex problems and support long-term growth.",
+  "跨学科合作项目": "Interdisciplinary Collaborative Projects",
+  "构建人机车空地协同急救网络，抢抓心脏骤停黄金四分钟，": "Build a coordinated air–ground emergency response network connecting people, aircraft and vehicles, making the most of the critical first four minutes after cardiac arrest,",
+  "补齐复杂场景院前急救短板，赋能公共应急体系，用科技守护群众生命安全。": "close gaps in prehospital emergency care in complex settings, strengthen public emergency services and use technology to protect lives.",
+  "建立对细胞类型、表达波动和环境扰动不敏感的凝聚体设计原则，": "Establish design principles for condensates that are insensitive to cell type, expression fluctuations and environmental perturbations,",
+  "服务于人工无膜细胞器、反应通路分区、信号调控、细胞工厂与治疗性细胞工程。": "serving artificial membraneless organelles, reaction pathway compartmentalization, signaling regulation, cell factories and therapeutic cell engineering.",
+  "该项目系南方科技大学生命科学学院的陈炜教授、王泽峰教授科研团队研发，打造 AI 驱动的 RNA 创新药物研发平台，": "Developed by the research teams of Professors Wei Chen and Zefeng Wang at SUSTech School of Life Sciences, this project creates an AI-driven platform for innovative RNA drug discovery,",
+  "项目运用人工智能大模型完成 RNA 序列优化、分子筛选与递送系统设计，打通靶点挖掘、分子设计、LNP 递送优化到临床前验证的研发链路。": "using large AI models to perform RNA sequence optimization, molecular screening and delivery system design, and connecting the R&D pipeline from target discovery and molecular design through LNP delivery optimization to preclinical validation.",
+  "构建人机车空地协同急救网络，抢抓心脏骤停黄金四分钟，补齐复杂场景院前急救短板，赋能公共应急体系，用科技守护群众生命安全。": "Build a coordinated air–ground emergency response network connecting people, aircraft and vehicles; make the most of the critical first four minutes after cardiac arrest; close gaps in prehospital emergency care in complex settings; strengthen public emergency services; and use technology to protect lives.",
+  "建立对细胞类型、表达波动和环境扰动不敏感的凝聚体设计原则，服务于人工无膜细胞器、反应通路分区、信号调控、细胞工厂与治疗性细胞工程。": "Establish design principles for condensates that are insensitive to cell type, expression fluctuations and environmental perturbations, serving artificial membraneless organelles, reaction pathway compartmentalization, signaling regulation, cell factories and therapeutic cell engineering.",
+  "该项目系南方科技大学生命科学学院的陈炜教授、王泽峰教授科研团队研发，打造 AI 驱动的 RNA 创新药物研发平台，项目运用人工智能大模型完成 RNA 序列优化、分子筛选与递送系统设计，打通靶点挖掘、分子设计、LNP 递送优化到临床前验证的研发链路。": "Developed by the research teams of Professors Wei Chen and Zefeng Wang at SUSTech School of Life Sciences, this project creates an AI-driven platform for innovative RNA drug discovery. It uses large AI models to perform RNA sequence optimization, molecular screening and delivery system design, connecting the R&D pipeline from target discovery and molecular design through LNP delivery optimization to preclinical validation.",
+  "查看完整原文": "Read the full description",
+  "合作入口": "Collaboration",
+  "课程筑基 · 项目落地 · 战略合作": "Courses as a foundation · Project implementation · Strategic partnerships"
+})
+T.update({"复合型人才": "Interdisciplinary Talent", "培养基地": "Development Base", "多领域跨学科": "Across Disciplines"})
+T.update({
+  "构建人机车空地协同急救网络，抢抓心脏骤停黄金四分钟。": "Build a coordinated air–ground emergency response network connecting people, aircraft and vehicles, making the most of the critical first four minutes after cardiac arrest.",
+  "补齐复杂场景院前急救短板，赋能公共应急体系，用科技守护群众生命安全。": "Close gaps in prehospital emergency care in complex settings, strengthen public emergency services and use technology to protect lives.",
+  "建立对细胞类型、表达波动和环境扰动不敏感的凝聚体设计原则。": "Establish design principles for condensates that are insensitive to cell type, expression fluctuations and environmental perturbations.",
+  "服务于人工无膜细胞器、反应通路分区、信号调控、细胞工厂与治疗性细胞工程。": "Serve artificial membraneless organelles, reaction pathway compartmentalization, signaling regulation, cell factories and therapeutic cell engineering.",
+  "该项目系南方科技大学生命科学学院的陈炜教授、王泽峰教授科研团队研发，打造 AI 驱动的 RNA 创新药物研发平台。": "Developed by the research teams of Professors Wei Chen and Zefeng Wang at SUSTech School of Life Sciences, this project creates an AI-driven platform for innovative RNA drug discovery.",
+  "项目运用人工智能大模型完成 RNA 序列优化、分子筛选与递送系统设计，打通靶点挖掘、分子设计、LNP 递送优化到临床前验证的研发链路。": "The project uses large AI models to perform RNA sequence optimization, molecular screening and delivery system design, connecting the R&D pipeline from target discovery and molecular design through LNP delivery optimization to preclinical validation.",
+  "项目介绍": "Project description"
+})
 root=Path(__file__).parent/'dist'
 zh=(root/'index.html').read_text(encoding='utf-8-sig')
 zh=zh.replace('href="https://bio.sustech.edu.cn/index/languages/lang/en.html" lang="en">EN ↗</a>', 'href="en.html" lang="en" hreflang="en" data-language-switch>EN</a>')
@@ -128,7 +187,7 @@ if p.missing: raise SystemExit('Missing translations: '+repr(sorted(p.missing)))
 en=''.join(p.out).replace('data-language-switch>EN</a>','data-language-switch>中文</a>')
 en=en.replace('<h1 id="hero-title">Innovative Center for<br>Life Science and Health</h1>','<h1 id="hero-title">Innovative Center for<br>Life Science and Health</h1>')
 en=en.replace('<p class="hero-en" lang="en">Innovative Center for Life Science and Health</p>','<p class="hero-en" lang="en">School of Life Sciences · SUSTech</p>')
-en=en.replace('x="367"','x="350"').replace('x="133"','x="150"')
+# Preserve ring label positions so the center does not cover English text.
 en=re.sub(r'<script name="language-redirect"></script>','',en)
 en=en.replace('<link rel="stylesheet" href="hero.css">','').replace('</head>','<link rel="stylesheet" href="hero.css"></head>')
 (root/'en.html').write_text(en,encoding='utf-8')
