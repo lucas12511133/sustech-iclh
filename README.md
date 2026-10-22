@@ -4,6 +4,13 @@
 
 A bilingual website for the Innovative Center for Life Science and Health at SUSTech School of Life Sciences. Built with static HTML, CSS and JavaScript.
 
+## 在线访问 / Website
+
+- 中文：https://lucas12511133.github.io/sustech-iclh/
+- English: https://lucas12511133.github.io/sustech-iclh/en.html
+
+GitHub Actions 会在 `main` 分支更新后检查并自动部署 `dist/`。源码仓库保持私有，GitHub Pages 网页公开访问。
+
 ## 本地预览 / Local preview
 
 在仓库根目录运行：
