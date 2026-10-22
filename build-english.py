@@ -133,6 +133,20 @@ T.update({
   "项目运用人工智能大模型完成 RNA 序列优化、分子筛选与递送系统设计，打通靶点挖掘、分子设计、LNP 递送优化到临床前验证的研发链路。": "The project uses large AI models to perform RNA sequence optimization, molecular screening and delivery system design, connecting the R&D pipeline from target discovery and molecular design through LNP delivery optimization to preclinical validation.",
   "项目介绍": "Project description"
 })
+T.update({
+  "核心成员": "Core Members",
+  "讲席教授、中国科学院院士": "Chair Professor, Member of the Chinese Academy of Sciences",
+  "教授（商学院、生命科学学院双聘）": "Professor (joint appointment in the Business School and School of Life Sciences)",
+  "结构生物学、神经生物学": "Structural biology, neurobiology",
+  "数学建模、数据分析": "Mathematical modeling, data analysis",
+  "随机过程、系统优化": "Stochastic processes, systems optimization",
+  "人机车空地协同急救网络": "Coordinated air–ground emergency response network",
+  "五大方向": "Five research directions",
+  "企业·转化": "Enterprise · Translation",
+  "跨学科·联合攻关": "Interdisciplinary · Joint research",
+  "投资·孵化": "Investment · Incubation"
+})
+T.update({'高效 LLPS 支架蛋白':'Efficient LLPS Scaffold Protein'})
 root=Path(__file__).parent/'dist'
 zh=(root/'index.html').read_text(encoding='utf-8-sig')
 zh=zh.replace('href="https://bio.sustech.edu.cn/index/languages/lang/en.html" lang="en">EN ↗</a>', 'href="en.html" lang="en" hreflang="en" data-language-switch>EN</a>')

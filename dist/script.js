@@ -1,6 +1,4 @@
-const menuButton=document.querySelector('.menu-button');
 const isEnglish=document.documentElement.lang==='en';
-menuButton.addEventListener('click',()=>{const expanded=menuButton.getAttribute('aria-expanded')==='true';menuButton.setAttribute('aria-expanded',String(!expanded));menuButton.setAttribute('aria-label',isEnglish?(expanded?'Open school navigation':'Close school navigation'):(expanded?'展开学院导航':'收起学院导航'));document.querySelector('.header-right').classList.toggle('open',!expanded)});
 const languageSwitch=document.querySelector('[data-language-switch]');
 function updateLanguageLink(){if(languageSwitch)languageSwitch.href=(isEnglish?'index.html':'en.html')+location.hash}
 updateLanguageLink();window.addEventListener('hashchange',updateLanguageLink);
