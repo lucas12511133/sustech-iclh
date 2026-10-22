@@ -55,3 +55,7 @@ html[lang="en"] .center-brand-copy>span{display:none}
 .person{align-items:start}
 .person-research p+p{margin-top:14px}
 @media(max-width:1100px){.people{grid-template-columns:1fr;gap:42px}}
+
+.merged-projects{margin-top:70px;padding-top:50px;border-top:1px solid var(--line)}
+#progress{scroll-margin-top:100px}
+@media(max-width:760px){.merged-projects{margin-top:45px;padding-top:35px}}
