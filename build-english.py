@@ -130,5 +130,6 @@ en=en.replace('<h1 id="hero-title">Innovative Center for<br>Life Science and Hea
 en=en.replace('<p class="hero-en" lang="en">Innovative Center for Life Science and Health</p>','<p class="hero-en" lang="en">School of Life Sciences · SUSTech</p>')
 en=en.replace('x="367"','x="350"').replace('x="133"','x="150"')
 en=re.sub(r'<script name="language-redirect"></script>','',en)
+en=en.replace('<link rel="stylesheet" href="hero.css">','').replace('</head>','<link rel="stylesheet" href="hero.css"></head>')
 (root/'en.html').write_text(en,encoding='utf-8')
 print('English page generated; all Chinese text nodes and attributes translated.')
