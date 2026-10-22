@@ -12,6 +12,7 @@ html[lang="en"] .hero-inner{padding-top:56px;padding-bottom:190px}
 html[lang="en"] .hero h1{font-size:clamp(38px,3.1vw,50px);line-height:1.2;max-width:800px}
 html[lang="en"] .hero-bottom{margin-top:26px}
 html[lang="en"] .hero-bottom p{font-size:19px;max-width:540px}
+@media(min-width:1300px){.hero{background-position:center 56%}}
 @media(max-width:760px){
  .hero,html[lang="en"] .hero{min-height:560px;background-position:66% 58%}
  .hero-inner,html[lang="en"] .hero-inner{padding-top:48px;padding-bottom:160px}
