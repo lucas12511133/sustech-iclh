@@ -147,6 +147,13 @@ T.update({
   "投资·孵化": "Investment · Incubation"
 })
 T.update({'高效 LLPS 支架蛋白':'Efficient LLPS Scaffold Protein'})
+T.update({
+  "个人简介": "Biography",
+  "讲席教授，生命科学学院院长，中国科学院院士，香港科学院创院院士。": "Chair Professor; Dean of the School of Life Sciences; Member of the Chinese Academy of Sciences; Founding Member of the Hong Kong Academy of Sciences.",
+  "2003年获香港裘槎基金会优秀学者奖；2006年获国家自然科学奖二等奖；2011年获何梁何利基金科学与技术奖，同年当选为中国科学院院士；2015年当选为香港科学院创院院士；2021年获谈家桢生命科学成就奖。": "He received the Outstanding Scholar Award from the Croucher Foundation in Hong Kong in 2003 and the Second Prize of the State Natural Science Award in 2006. In 2011, he received the Ho Leung Ho Lee Foundation Prize for Science and Technology and was elected to the Chinese Academy of Sciences. He became a Founding Member of the Hong Kong Academy of Sciences in 2015 and received the Tan Jiazhen Life Science Achievement Award in 2021.",
+  "从事运营管理相关研究，已在商科国际顶级UTD期刊上发表论文10篇，现任Production and Operations Management的Senior Editor以及Decision Sciences的Associate Editor，荣获浙江省科学技术进步奖三等奖，所著决策咨询专报于国务院办公厅录用、政策研究报告获浙江省委书记批示。": "His research focuses on operations management. He has published 10 papers in leading international business journals on the UTD list. He currently serves as Senior Editor of Production and Operations Management and Associate Editor of Decision Sciences. He received the Third Prize of the Zhejiang Provincial Science and Technology Progress Award. His decision-making advisory report was accepted by the General Office of the State Council, and his policy research report received written comments from the Secretary of the CPC Zhejiang Provincial Committee.",
+  "入选国家级海外高层次人才引进计划青年特聘专家、广东省珠江人才计划青年拔尖人才、深圳市鹏城孔雀计划特聘教授等。": "He has been selected as a young distinguished expert under the national overseas high-level talent recruitment program, a leading young talent under Guangdong’s Pearl River Talent Program, and a distinguished professor under Shenzhen’s Pengcheng Peacock Program, among other honors."
+})
 root=Path(__file__).parent/'dist'
 zh=(root/'index.html').read_text(encoding='utf-8-sig')
 zh=zh.replace('href="https://bio.sustech.edu.cn/index/languages/lang/en.html" lang="en">EN ↗</a>', 'href="en.html" lang="en" hreflang="en" data-language-switch>EN</a>')

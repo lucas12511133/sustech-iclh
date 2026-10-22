@@ -50,3 +50,8 @@ html[lang="en"] .center-brand-copy>span{display:none}
 .section-nav{overflow-x:auto}
 .section-nav>div{width:max-content;min-width:min(100%,1050px);max-width:none}
 .section-nav a{flex-shrink:0}
+
+/* Align portraits with the longer biographies. */
+.person{align-items:start}
+.person-research p+p{margin-top:14px}
+@media(max-width:1100px){.people{grid-template-columns:1fr;gap:42px}}
