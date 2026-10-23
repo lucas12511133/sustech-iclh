@@ -161,6 +161,7 @@ T.update({"生命科学学院院长": "Dean of the School of Life Sciences", "�
 T.update({"中国科学院院士，香港科学院创院院士": "Member of the Chinese Academy of Sciences; Founding Member of the Hong Kong Academy of Sciences"})
 T.update({'01 / 合成生物学':'01 / Synthetic biology','02 / 创新药物':'02 / Drug discovery','03 / 应急救援':'03 / Emergency response'})
 T.update({"2003年获香港裘槎基金会优秀学者奖；": "2003: Outstanding Scholar Award, Croucher Foundation, Hong Kong;", "2006年获国家自然科学奖二等奖；": "2006: Second Prize of the State Natural Science Award;", "2011年获何梁何利基金科学与技术奖，同年当选为中国科学院院士；": "2011: Ho Leung Ho Lee Foundation Prize for Science and Technology; elected to the Chinese Academy of Sciences in the same year;", "2015年当选为香港科学院创院院士；": "2015: Elected as a Founding Member of the Hong Kong Academy of Sciences;", "2021年获谈家桢生命科学成就奖。": "2021: Tan Jiazhen Life Science Achievement Award."})
+T.update({"愿景使命": "Vision and Mission", "中心主任": "Director", "中心副主任": "Deputy Director", "个人主页 ↗": "Personal Homepage ↗", "南方科技大学 · 生命科学学院": "SUSTech · School of Life Sciences", "聚焦生命科学、医学、公共卫生、大健康等方向。": "Focus on life sciences, medicine, public health and health-related fields.", "教育合作": "Education opportunity", "复合型人才培养": "Interdisciplinary talent development", "学术合作": "Research collaboration", "构建产学研闭环": "Building bridge connecting research, teaching, and practice", "商学院、生命科学学院双聘": "Joint Appointment in School of Business and School of Life Sciences", "复合型人才培养基地": "Interdisciplinary Talent Development Program", "多领域跨学科科研合作": "Interdisciplinary Research", "多领域跨学科": "Interdisciplinary", "科研合作": "Research"})
 root=Path(__file__).parent/'dist'
 zh=(root/'index.html').read_text(encoding='utf-8-sig')
 zh=zh.replace('href="https://bio.sustech.edu.cn/index/languages/lang/en.html" lang="en">EN ↗</a>', 'href="en.html" lang="en" hreflang="en" data-language-switch>EN</a>')
@@ -218,5 +219,6 @@ en=en.replace('<p class="hero-en" lang="en">Innovative Center for Life Science a
 # Preserve ring label positions so the center does not cover English text.
 en=re.sub(r'<script name="language-redirect"></script>','',en)
 en=en.replace('<link rel="stylesheet" href="hero.css">','').replace('</head>','<link rel="stylesheet" href="hero.css"></head>')
+en=en.replace('Dean Mingjie Zhang','Prof. Mingjie Zhang')
 (root/'en.html').write_text(en,encoding='utf-8')
 print('English page generated; all Chinese text nodes and attributes translated.')
