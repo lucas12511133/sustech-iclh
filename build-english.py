@@ -186,6 +186,7 @@ class Translate(HTMLParser):
             elif v is not None:
                 v=self.translate(v)
                 if k=='href':
+                    if v.startswith('https://faculty.sustech.edu.cn/') and 'tagid=zhangmj' in v: v='https://mjzlab.bio.sustech.edu.cn/index.html?lang=en-us'
                     if v=='en.html': v='index.html'
                     elif v.startswith('https://bio.sustech.edu.cn/'):
                         u=urlsplit(v); q=dict(parse_qsl(u.query)); q['lang']='en-us'; v=urlunsplit((u.scheme,u.netloc,u.path,urlencode(q),u.fragment))
