@@ -23,7 +23,7 @@ T = {
  '访问张明杰教授主页（新标签页）':'Visit Mingjie Zhang’s profile (opens in a new tab)', '张明杰院士':'Professor Mingjie Zhang', '创新中心主任':'Director', '张明杰':'Mingjie Zhang',
  '讲席教授 · 中国科学院院士':'Chair Professor · Member of the Chinese Academy of Sciences', '研究方向':'Research interests', '分子生物学与生物化学':'Molecular biology and biochemistry', '结构生物学 · 神经生物学':'Structural biology · Neurobiology',
  '访问王宇教授主页（新标签页）':'Visit Rowan Wang’s profile (opens in a new tab)', '王宇教授':'Professor Rowan Wang', '创新中心副主任':'Deputy Director', '王宇':'Rowan Wang',
- '教授 · 商学院、生命科学学院双聘':'Professor · Joint appointment in the Business School and School of Life Sciences', '数学建模 · 数据分析':'Mathematical modeling · Data analysis', '随机过程 · 系统优化':'Stochastic processes · Systems optimization',
+ '教授 · 商学院、生命科学学院双聘':'Professor · Joint appointment in the College of Business and School of Life Sciences', '数学建模 · 数据分析':'Mathematical modeling · Data analysis', '随机过程 · 系统优化':'Stochastic processes · Systems optimization',
  '构建产学研用协同体系':'Connecting research, education and industry', '四项中心职能':'Four areas of work',
  '前沿转化研究':'Translational Research', '前沿转化':'Translational', '研究':'Research', '产学研协同枢纽':'Industry–University Partnerships', '产学研':'Industry', '协同枢纽':'Partnerships',
  '复合型人才培养':'Interdisciplinary Talent Development', '复合型':'Talent', '人才培养':'Development', '跨学科科研合作':'Interdisciplinary Research Collaboration', '跨学科':'Interdisciplinary', '科研合作':'Collaboration',
@@ -136,7 +136,7 @@ T.update({
 T.update({
   "核心成员": "Core Members",
   "讲席教授、中国科学院院士": "Chair Professor, Member of the Chinese Academy of Sciences",
-  "教授（商学院、生命科学学院双聘）": "Professor (joint appointment in the Business School and School of Life Sciences)",
+  "教授（商学院、生命科学学院双聘）": "Professor (joint appointment in the College of Business and School of Life Sciences)",
   "结构生物学、神经生物学": "Structural biology, neurobiology",
   "数学建模、数据分析": "Mathematical modeling, data analysis",
   "随机过程、系统优化": "Stochastic processes, systems optimization",
@@ -156,12 +156,12 @@ T.update({
 })
 T.update({'项目合作':'Project Partnerships'})
 T.update({"荣获浙江省科学技术进步奖三等奖，所著决策咨询专报于国务院办公厅录用、政策研究报告获浙江省委书记批示。": "He received the Third Prize of the Zhejiang Provincial Science and Technology Progress Award. His decision-making advisory report was accepted by the General Office of the State Council, and his policy research report received written comments from the Secretary of the CPC Zhejiang Provincial Committee."})
-T.update({"讲席教授": "Chair Professor", "生命科学学院院长，中国科学院院士，香港科学院创院院士。": "Dean of the School of Life Sciences; Member of the Chinese Academy of Sciences; Founding Member of the Hong Kong Academy of Sciences.", "教授": "Professor", "商学院、生命科学学院双聘": "Joint appointment in the Business School and School of Life Sciences"})
+T.update({"讲席教授": "Chair Professor", "生命科学学院院长，中国科学院院士，香港科学院创院院士。": "Dean of the School of Life Sciences; Member of the Chinese Academy of Sciences; Founding Member of the Hong Kong Academy of Sciences.", "教授": "Professor", "商学院、生命科学学院双聘": "Joint appointment in the College of Business and School of Life Sciences"})
 T.update({"生命科学学院院长": "Dean of the School of Life Sciences", "中国科学院院士，香港科学院创院院士。": "Member of the Chinese Academy of Sciences; Founding Member of the Hong Kong Academy of Sciences.", "荣获浙江省科学技术进步奖三等奖，所著决策咨询专报于国务院办公厅录用、政策研究报告获浙江省委书记批示。入选国家级海外高层次人才引进计划青年特聘专家、广东省珠江人才计划青年拔尖人才、深圳市鹏城孔雀计划特聘教授等。": "He received the Third Prize of the Zhejiang Provincial Science and Technology Progress Award. His decision-making advisory report was accepted by the General Office of the State Council, and his policy research report received written comments from the Secretary of the CPC Zhejiang Provincial Committee. He has been selected as a young distinguished expert under the national overseas high-level talent recruitment program, a leading young talent under Guangdong’s Pearl River Talent Program, and a distinguished professor under Shenzhen’s Pengcheng Peacock Program, among other honors."})
 T.update({"中国科学院院士，香港科学院创院院士": "Member of the Chinese Academy of Sciences; Founding Member of the Hong Kong Academy of Sciences"})
 T.update({'01 / 合成生物学':'01 / Synthetic biology','02 / 创新药物':'02 / Drug discovery','03 / 应急救援':'03 / Emergency response'})
 T.update({"2003年获香港裘槎基金会优秀学者奖；": "2003: Outstanding Scholar Award, Croucher Foundation, Hong Kong;", "2006年获国家自然科学奖二等奖；": "2006: Second Prize of the State Natural Science Award;", "2011年获何梁何利基金科学与技术奖，同年当选为中国科学院院士；": "2011: Ho Leung Ho Lee Foundation Prize for Science and Technology; elected to the Chinese Academy of Sciences in the same year;", "2015年当选为香港科学院创院院士；": "2015: Elected as a Founding Member of the Hong Kong Academy of Sciences;", "2021年获谈家桢生命科学成就奖。": "2021: Tan Jiazhen Life Science Achievement Award."})
-T.update({"愿景使命": "Vision and Mission", "中心主任": "Director", "中心副主任": "Deputy Director", "个人主页 ↗": "Personal Homepage ↗", "南方科技大学 · 生命科学学院": "SUSTech · School of Life Sciences", "聚焦生命科学、医学、公共卫生、大健康等方向。": "Focus on life sciences, medicine, public health and health-related fields.", "教育合作": "Education opportunity", "复合型人才培养": "Interdisciplinary talent development", "学术合作": "Research collaboration", "构建产学研闭环": "Building bridge connecting research, teaching, and practice", "商学院、生命科学学院双聘": "Joint Appointment in School of Business and School of Life Sciences", "复合型人才培养基地": "Interdisciplinary Talent Development Program", "多领域跨学科科研合作": "Interdisciplinary Research", "多领域跨学科": "Interdisciplinary", "科研合作": "Research"})
+T.update({"愿景使命": "Vision and Mission", "中心主任": "Director", "中心副主任": "Deputy Director", "个人主页 ↗": "Personal Homepage ↗", "南方科技大学 · 生命科学学院": "SUSTech · School of Life Sciences", "聚焦生命科学、医学、公共卫生、大健康等方向。": "Focus on life sciences, medicine, public health and health-related fields.", "教育合作": "Education opportunity", "复合型人才培养": "Interdisciplinary talent development", "学术合作": "Research collaboration", "构建产学研闭环": "Building bridge connecting research, teaching, and practice", "商学院、生命科学学院双聘": "Joint Appointment in College of Business and School of Life Sciences", "复合型人才培养基地": "Interdisciplinary Talent Development Program", "多领域跨学科科研合作": "Interdisciplinary Research", "多领域跨学科": "Interdisciplinary", "科研合作": "Research"})
 root=Path(__file__).parent/'dist'
 zh=(root/'index.html').read_text(encoding='utf-8-sig')
 zh=zh.replace('href="https://bio.sustech.edu.cn/index/languages/lang/en.html" lang="en">EN ↗</a>', 'href="en.html" lang="en" hreflang="en" data-language-switch>EN</a>')
